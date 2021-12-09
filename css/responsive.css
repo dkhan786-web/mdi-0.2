@@ -1,7 +1,18 @@
 
 
 /** Responsive start **/
-@media (min-width: 320px) and (max-width: 568px) {
+@media (min-width: 320px) and (max-width: 768px) {
+    .codebox{
+        margin-top: 40px;
+        overflow-x: hidden;
+    }
+    .codebox textarea{
+        width: 100%;
+        font-size: 12px;
+        overflow-x: hidden;
+        margin-left: -10px;
+        margin-right: 5px;
+    }
     .site-branding a img{
         width: 140px;
     }
