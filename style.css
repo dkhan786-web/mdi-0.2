@@ -19,6 +19,13 @@ html {
 	background: #202020;
 	color: rgb(241, 241, 241);
 	font-size: 15px;
+	-webkit-width: 97%;
+	-webkit-height: 200px;
+	-webkit-margin-left: -15px;
+	-webkit-resize: none;
+	-webkit-background: #202020;
+	-webkit-color: rgb(241, 241, 241);
+	-webkit-font-size: 15px;
 }
 textarea::-webkit-scrollbar {
     width: 3px;
